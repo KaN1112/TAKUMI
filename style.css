@@ -37,13 +37,13 @@ section { padding:132px 0; }
 .campaign-date dd { margin:0; font-size:clamp(20px,2.2vw,29px); font-weight:700; line-height:1.55; }
 .campaign-date dd > time,.campaign-date-end { display:block; white-space:nowrap; }
 .campaign-note { margin:20px 0 32px; font-size:13px; }
-.campaign .btn-wrap { width:100%; max-width:520px; margin:38px auto 0; padding-top:12px; }
-.campaign .campaign-consult { display:flex; min-height:108px; align-items:center; justify-content:center; padding:30px 60px 18px; border-radius:6px; color:#fff; background:var(--accent); box-shadow:0 6px 0 #c6530b; font-size:1.45rem; line-height:1.35; letter-spacing:.08em; text-align:center; }
+.campaign .btn-wrap { width:100%; max-width:400px; margin:34px auto 0; padding-top:10px; }
+.campaign .campaign-consult { display:flex; min-height:76px; align-items:center; justify-content:center; padding:24px 42px 12px; border-radius:5px; color:#fff; background:var(--accent); box-shadow:0 5px 0 #c6530b; font-size:1.1rem; line-height:1.35; letter-spacing:.06em; text-align:center; }
 .campaign .campaign-consult::after { display:none; }
 .campaign .campaign-consult br { display:none; }
-.campaign .campaign-consult span { position:absolute; top:-14px; left:50%; display:block; width:min(86%,340px); padding:5px 12px; border:2px solid var(--accent); border-radius:6px; color:var(--accent); background:#fff; box-shadow:0 3px 5px rgba(0,0,0,.16); font-size:.9rem; line-height:1.4; letter-spacing:.04em; transform:translateX(-50%); }
+.campaign .campaign-consult span { position:absolute; top:-12px; left:50%; display:block; width:min(84%,280px); padding:4px 10px; border:2px solid var(--accent); border-radius:5px; color:var(--accent); background:#fff; box-shadow:0 2px 4px rgba(0,0,0,.14); font-size:.75rem; line-height:1.35; letter-spacing:.03em; transform:translateX(-50%); }
 .campaign .campaign-consult i { display:inline-block; margin-left:15px; font-style:normal; }
-.campaign .campaign-consult i::before { content:'»'; font-size:1.7rem; line-height:1; }
+.campaign .campaign-consult i::before { content:'»'; font-size:1.35rem; line-height:1; }
 .campaign .campaign-consult:hover,.campaign .campaign-consult:focus-visible { color:#fff; background:#e86612; transform:translateY(3px); box-shadow:0 3px 0 #ad4708; }
 .campaign { padding-top:108px; padding-bottom:108px; }
 .process { padding-top:108px; padding-bottom:108px; background:var(--paper); }
@@ -65,17 +65,17 @@ section { padding:132px 0; }
 .contact-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:100px; align-items:start; }
 .contact-method { margin:0 0 16px; color:var(--accent); font-size:14px; font-weight:700; }
 .contact-copy { margin:0 0 34px; font-size:clamp(10px,1.15vw,16px); line-height:1.9; font-weight:500; letter-spacing:-.04em; white-space:nowrap; }
-.contact-cta { padding:8px 0 7px; }
+.contact-cta { width:100%; max-width:420px; margin:0 auto; padding:8px 0 6px; }
 .btn-copy { position:relative; margin-bottom:14px; text-align:center; color:#252525; font-size:1.25rem; font-weight:bold; }
 .btn-copy::before { margin-right:1rem; content:'＼'; }
 .btn-copy::after { margin-left:1rem; content:'／'; }
-.btn { position:relative; display:flex; width:100%; min-height:82px; align-items:center; justify-content:center; padding:0 64px 0 40px; font-size:1.35rem; font-weight:700; }
+.btn { position:relative; display:flex; width:100%; min-height:60px; align-items:center; justify-content:center; padding:0 52px 0 32px; font-size:1rem; font-weight:700; }
 .btn::after { position:absolute; top:50%; right:30px; width:12px; height:12px; border-top:3px solid currentColor; border-right:3px solid currentColor; content:''; transform:translateY(-50%) rotate(45deg); }
 .btn-c { transition:transform .15s ease,box-shadow .15s ease,background-color .15s ease; }
 .btn--yellow { color:#fff; background:var(--accent); }
-.btn--cubic { border-radius:999px; box-shadow:0 7px 0 #c6530b; }
-.btn--cubic:hover,.btn--cubic:focus-visible { background:#e86612; transform:translateY(2px); box-shadow:0 5px 0 #ad4708; }
-.btn--cubic:active { transform:translateY(7px); box-shadow:none; }
+.btn--cubic { border-radius:999px; box-shadow:0 5px 0 #c6530b; }
+.btn--cubic:hover,.btn--cubic:focus-visible { background:#e86612; transform:translateY(2px); box-shadow:0 3px 0 #ad4708; }
+.btn--cubic:active { transform:translateY(5px); box-shadow:none; }
 .details { background:var(--soft); padding:72px 0; }
 .details-grid { display:grid; grid-template-columns:1fr 2fr; gap:70px; }
 .details-title { margin:0; font-size:20px; }
@@ -111,9 +111,9 @@ section { padding:132px 0; }
   .campaign h2 { font-size:clamp(29px,9.4vw,37px); letter-spacing:-.055em; }
   .campaign-copy { margin-bottom:34px; font-size:17px; }
   .campaign-date dd { font-size:clamp(16px,5vw,20px); }
-  .campaign .btn-wrap { margin-top:32px; }
-  .campaign .campaign-consult { min-height:88px; padding:27px 42px 13px; font-size:1.2rem; }
-  .campaign .campaign-consult span { top:-12px; width:90%; font-size:.78rem; }
+  .campaign .btn-wrap { max-width:310px; margin-top:30px; }
+  .campaign .campaign-consult { min-height:68px; padding:22px 34px 10px; font-size:1rem; }
+  .campaign .campaign-consult span { top:-11px; width:88%; font-size:.7rem; }
   .campaign .campaign-consult i { margin-left:10px; }
   .section-heading { font-size:36px; }
   .section-head { grid-template-columns:1fr; gap:22px; margin-bottom:46px; }
@@ -125,12 +125,12 @@ section { padding:132px 0; }
   .contact { padding-top:72px; padding-bottom:72px; }
   .contact-grid { grid-template-columns:1fr; gap:36px; }
   .contact-copy { font-size:10px; }
-  .contact-cta { padding:6px 0 7px; }
+  .contact-cta { max-width:310px; padding:6px 0 5px; }
   .btn-copy { font-size:.98rem; white-space:nowrap; }
   .btn-copy::before { margin-right:.35rem; }
   .btn-copy::after { margin-left:.35rem; }
-  .btn { min-height:66px; padding-right:52px; padding-left:28px; font-size:1.05rem; }
-  .btn::after { right:24px; width:10px; height:10px; }
+  .btn { min-height:54px; padding-right:46px; padding-left:24px; font-size:.9rem; }
+  .btn::after { right:22px; width:9px; height:9px; }
   .details { padding:58px 0; }
   .details-grid { grid-template-columns:1fr; gap:34px; }
   .detail-row { grid-template-columns:82px 1fr; gap:8px 14px; }
