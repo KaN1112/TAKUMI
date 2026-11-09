@@ -37,9 +37,10 @@ section { padding:132px 0; }
 .campaign-date dd { margin:0; font-size:clamp(20px,2.2vw,29px); font-weight:700; line-height:1.55; }
 .campaign-date dd > time,.campaign-date-end { display:block; white-space:nowrap; }
 .campaign-note { margin:20px 0 32px; font-size:13px; }
-.campaign .btn-wrap { margin:38px 0 0; padding-top:12px; }
-.campaign .campaign-consult { display:block; min-height:92px; padding:28px 60px 16px; border-radius:6px; color:#fff; background:var(--accent); box-shadow:0 6px 0 #c6530b; font-size:1.45rem; line-height:1.35; letter-spacing:.08em; }
+.campaign .btn-wrap { width:100%; max-width:520px; margin:38px auto 0; padding-top:12px; }
+.campaign .campaign-consult { display:flex; min-height:108px; align-items:center; justify-content:center; padding:30px 60px 18px; border-radius:6px; color:#fff; background:var(--accent); box-shadow:0 6px 0 #c6530b; font-size:1.45rem; line-height:1.35; letter-spacing:.08em; text-align:center; }
 .campaign .campaign-consult::after { display:none; }
+.campaign .campaign-consult br { display:none; }
 .campaign .campaign-consult span { position:absolute; top:-14px; left:50%; display:block; width:min(86%,340px); padding:5px 12px; border:2px solid var(--accent); border-radius:6px; color:var(--accent); background:#fff; box-shadow:0 3px 5px rgba(0,0,0,.16); font-size:.9rem; line-height:1.4; letter-spacing:.04em; transform:translateX(-50%); }
 .campaign .campaign-consult i { display:inline-block; margin-left:15px; font-style:normal; }
 .campaign .campaign-consult i::before { content:'»'; font-size:1.7rem; line-height:1; }
@@ -111,7 +112,7 @@ section { padding:132px 0; }
   .campaign-copy { margin-bottom:34px; font-size:17px; }
   .campaign-date dd { font-size:clamp(16px,5vw,20px); }
   .campaign .btn-wrap { margin-top:32px; }
-  .campaign .campaign-consult { min-height:82px; padding:27px 42px 13px; font-size:1.2rem; }
+  .campaign .campaign-consult { min-height:88px; padding:27px 42px 13px; font-size:1.2rem; }
   .campaign .campaign-consult span { top:-12px; width:90%; font-size:.78rem; }
   .campaign .campaign-consult i { margin-left:10px; }
   .section-heading { font-size:36px; }
