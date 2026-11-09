@@ -1,5 +1,6 @@
 const menuButton = document.querySelector('.menu-button');
 const nav = document.querySelector('.nav');
+const backToTop = document.querySelector('.back-to-top');
 
 menuButton.addEventListener('click', () => {
   const isOpen = nav.classList.toggle('open');
@@ -14,6 +15,13 @@ nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
   menuButton.setAttribute('aria-expanded', 'false');
   menuButton.setAttribute('aria-label', 'メニューを開く');
 }));
+
+const updateBackToTop = () => {
+  backToTop.classList.toggle('is-visible', window.scrollY > 500);
+};
+
+window.addEventListener('scroll', updateBackToTop, { passive: true });
+updateBackToTop();
 
 document.querySelector('[data-copy="email"]').addEventListener('click', async event => {
   const text = document.getElementById('email').textContent.trim();
