@@ -28,12 +28,12 @@ button { font:inherit; }
 section { padding:132px 0; }
 .campaign { color:var(--ink); background:var(--soft); }
 .campaign-grid { display:grid; grid-template-columns:1fr 1fr; gap:100px; align-items:start; }
-.campaign-label { display:inline-block; margin:0 0 26px; padding:7px 13px; color:#fff; background:var(--accent); font-size:12px; font-weight:700; letter-spacing:.12em; }
+.campaign-label { display:inline-block; margin:0 0 26px; padding:7px 13px; color:#fff; background:var(--accent); font-size:13px; font-weight:700; letter-spacing:.12em; }
 .campaign h2 { margin:0; font-size:clamp(38px,4.6vw,66px); line-height:1.2; letter-spacing:-.045em; }
 .campaign h2 span { display:block; white-space:nowrap; }
 .campaign-copy { margin:0 0 48px; max-width:570px; font-size:20px; font-weight:500; line-height:1.8; }
 .campaign-date { margin:0; padding:25px 0; border-top:1px solid var(--ink); border-bottom:1px solid var(--line); }
-.campaign-date dt { margin-bottom:10px; font-size:12px; font-weight:600; letter-spacing:.12em; }
+.campaign-date dt { margin-bottom:10px; font-size:13px; font-weight:600; letter-spacing:.12em; }
 .campaign-date dd { margin:0; font-size:clamp(20px,2.2vw,29px); font-weight:700; line-height:1.55; }
 .campaign-date dd > time,.campaign-date-end { display:block; white-space:nowrap; }
 .campaign-note { margin:20px 0 32px; font-size:13px; }
@@ -66,7 +66,7 @@ section { padding:132px 0; }
 .process { padding-top:108px; padding-bottom:108px; background:var(--paper); }
 .process-list { border-top:1px solid var(--ink); }
 .process-item { display:grid; grid-template-columns:90px 1fr 1.1fr; gap:30px; align-items:start; padding:34px 0; border-bottom:1px solid var(--line); }
-.process-number { color:var(--accent); font-weight:600; font-size:14px; }
+.process-number { color:var(--accent); font-weight:600; font-size:13px; }
 .process-title { margin:0; font-size:21px; line-height:1.5; }
 .process-text { margin:0; color:var(--muted); }
 .pricing { background:var(--soft); }
@@ -118,7 +118,7 @@ section { padding:132px 0; }
 }
 .contact { padding-top:108px; padding-bottom:108px; background:var(--paper); }
 .contact-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:100px; align-items:start; }
-.contact-method { margin:0 0 16px; color:var(--accent); font-size:14px; font-weight:700; }
+.contact-method { margin:0 0 16px; color:var(--accent); font-size:13px; font-weight:700; }
 .contact-copy {
   margin:0 0 28px;
   font-size:16px;
