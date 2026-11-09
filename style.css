@@ -58,7 +58,7 @@ section { padding:132px 0; }
 .contact { padding-top:108px; padding-bottom:108px; background:var(--paper); }
 .contact-grid { display:grid; grid-template-columns:.9fr 1.1fr; gap:100px; align-items:start; }
 .contact-method { margin:0 0 16px; color:var(--accent); font-size:14px; font-weight:700; }
-.contact-copy { margin:0 0 34px; font-size:clamp(22px,2.5vw,34px); line-height:1.6; font-weight:500; letter-spacing:-.02em; }
+.contact-copy { margin:0 0 34px; font-size:clamp(10px,1.15vw,16px); line-height:1.9; font-weight:500; letter-spacing:-.04em; white-space:nowrap; }
 .contact-cta { padding:8px 0 7px; }
 .btn-copy { position:relative; margin-bottom:14px; text-align:center; color:#252525; font-size:1.25rem; font-weight:bold; }
 .btn-copy::before { margin-right:1rem; content:'＼'; }
@@ -112,7 +112,7 @@ section { padding:132px 0; }
   .portfolio .button { width:100%; justify-content:space-between; }
   .contact { padding-top:72px; padding-bottom:72px; }
   .contact-grid { grid-template-columns:1fr; gap:36px; }
-  .contact-copy { font-size:22px; }
+  .contact-copy { font-size:10px; }
   .contact-cta { padding:6px 0 7px; }
   .btn-copy { font-size:.98rem; white-space:nowrap; }
   .btn-copy::before { margin-right:.35rem; }
