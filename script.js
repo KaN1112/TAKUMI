@@ -2,6 +2,19 @@ const menuButton = document.querySelector('.menu-button');
 const nav = document.querySelector('.nav');
 const backToTop = document.querySelector('.back-to-top');
 
+const revealElements = document.querySelectorAll('main > section:not(.hero), .footer');
+revealElements.forEach(element => element.classList.add('reveal'));
+
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('is-visible');
+    revealObserver.unobserve(entry.target);
+  });
+}, { threshold:0.08, rootMargin:'0px 0px -40px' });
+
+revealElements.forEach(element => revealObserver.observe(element));
+
 menuButton.addEventListener('click', () => {
   const isOpen = nav.classList.toggle('open');
   document.body.classList.toggle('menu-open', isOpen);
