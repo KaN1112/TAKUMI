@@ -82,7 +82,7 @@ section { padding:132px 0; }
 }
 .campaign-date { margin:0; padding:25px 0; border-top:1px solid var(--ink); border-bottom:1px solid var(--line); }
 .campaign-date dt { margin-bottom:10px; font-size:13px; font-weight:600; letter-spacing:.12em; }
-.campaign-date dd { margin:0; font-size:clamp(20px,2.2vw,29px); font-weight:700; line-height:1.55; }
+.campaign-date dd { margin:0; font-size:clamp(18px,1.8vw,25px); font-weight:700; line-height:1.55; }
 .campaign-date dd > time,.campaign-date-end { display:block; white-space:nowrap; }
 .campaign-note { margin:20px 0 32px; font-size:13px; }
 .campaign .btn-wrap {
@@ -111,7 +111,7 @@ section { padding:132px 0; }
   box-shadow:0 1px 0 #ad4708;
 }
 .campaign { padding-top:108px; padding-bottom:108px; }
-.process { padding-top:108px; padding-bottom:108px; background:var(--paper); }
+.process { padding-top:108px; padding-bottom:80px; background:var(--paper); }
 .process-list { border-top:1px solid var(--ink); }
 .process-item { display:grid; grid-template-columns:minmax(220px,.9fr) minmax(0,1.1fr); gap:48px; align-items:start; padding:32px 0; border-bottom:1px solid var(--line); }
 .process-title { margin:0; font-size:21px; line-height:1.5; }
@@ -352,7 +352,7 @@ section { padding:132px 0; }
   .campaign-offers strong {
     font-size:16px;
   }
-  .campaign-date dd { font-size:clamp(16px,5vw,20px); }
+  .campaign-date dd { font-size:clamp(16px,4.4vw,19px); }
   .campaign .btn-wrap {
     max-width:320px;
     margin-top:28px;
@@ -364,7 +364,7 @@ section { padding:132px 0; }
   }
   .section-heading { font-size:36px; }
   .section-head { grid-template-columns:1fr; gap:22px; margin-bottom:46px; }
-  .process { padding-top:72px; padding-bottom:72px; }
+  .process { padding-top:72px; padding-bottom:56px; }
   .process-item { grid-template-columns:1fr; gap:8px; padding:24px 0; }
   .process-text { font-size:14px; }
   .portfolio-inner { min-height:400px; grid-template-columns:1fr; align-content:center; gap:38px; }
