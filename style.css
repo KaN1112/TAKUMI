@@ -117,8 +117,7 @@ section { padding:132px 0; }
 .campaign { padding-top:108px; padding-bottom:108px; }
 .process { padding-top:108px; padding-bottom:108px; background:var(--paper); }
 .process-list { border-top:1px solid var(--ink); }
-.process-item { display:grid; grid-template-columns:90px 1fr 1.1fr; gap:30px; align-items:start; padding:34px 0; border-bottom:1px solid var(--line); }
-.process-number { color:var(--accent); font-weight:600; font-size:13px; }
+.process-item { display:grid; grid-template-columns:minmax(220px,.9fr) minmax(0,1.1fr); gap:48px; align-items:start; padding:32px 0; border-bottom:1px solid var(--line); }
 .process-title { margin:0; font-size:21px; line-height:1.5; }
 .process-text { margin:0; color:var(--muted); }
 .pricing { background:var(--soft); }
@@ -370,8 +369,8 @@ section { padding:132px 0; }
   .section-heading { font-size:36px; }
   .section-head { grid-template-columns:1fr; gap:22px; margin-bottom:46px; }
   .process { padding-top:72px; padding-bottom:72px; }
-  .process-item { grid-template-columns:46px 1fr; gap:8px 14px; padding:26px 0; }
-  .process-text { grid-column:2; font-size:14px; }
+  .process-item { grid-template-columns:1fr; gap:8px; padding:24px 0; }
+  .process-text { font-size:14px; }
   .portfolio-inner { min-height:400px; grid-template-columns:1fr; align-content:center; gap:38px; }
   .portfolio p {
     font-size:clamp(9.5px,2.65vw,11px);
