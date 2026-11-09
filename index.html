@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TAKUMI STUDIOは、個人・クリエイター・チーム・企業のためのWebサイトを制作します。">
+  <title>TAKUMI STUDIO｜Webサイト制作</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="TAKUMI STUDIO トップへ">TAKUMI STUDIO</a>
+      <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" aria-label="メインナビゲーション">
+        <a href="#campaign">キャンペーン</a><a href="#process">制作期間</a><a href="#pricing">料金表</a><a href="#works">制作実績</a><a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 class="hero-title" id="hero-title">TAKUMI STUDIO</h1>
+      <a class="scroll-hint" href="#campaign">SCROLL</a>
+    </section>
+
+    <section class="campaign" id="campaign" aria-labelledby="campaign-title">
+      <div class="container campaign-grid">
+        <div class="campaign-heading">
+          <p class="campaign-label">期間限定</p>
+          <h2 id="campaign-title"><span>無料・割引</span><span>受注キャンペーン</span></h2>
+        </div>
+        <div class="campaign-info">
+          <p class="campaign-copy">Webサイトやクリエイティブ制作を、無料または割引価格でご依頼いただけるキャンペーンを開催します。</p>
+          <dl class="campaign-date">
+            <dt>受付期間</dt>
+            <dd><time datetime="2026-11-16">2026年11月16日（月）</time><span class="campaign-date-end">～<time datetime="2026-11-23">2026年11月23日（月）</time></span></dd>
+          </dl>
+          <p class="campaign-note">対象内容や条件については、XのDMよりお問い合わせください。</p>
+          <a class="button campaign-button" href="#contact">キャンペーンについて相談する</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">PROCESS</p><h2 class="section-heading">制作期間</h2></div>
+          <p class="section-lead">ご相談から納品まで、内容を共有しながら段階的に進めます。期間はサイトの規模や仕様に合わせて個別にご案内します。</p>
+        </div>
+        <div class="process-list">
+          <article class="process-item"><span class="process-number">01</span><h3 class="process-title">ご相談・お見積もり</h3><p class="process-text">目的や必要なページ、希望する雰囲気を伺い、制作範囲とお見積もりをご案内します。</p></article>
+          <article class="process-item"><span class="process-number">02</span><h3 class="process-title">デザイン制作</h3><p class="process-text">情報を整理し、PC・スマートフォンの両方を考慮したデザインをご提案します。</p></article>
+          <article class="process-item"><span class="process-number">03</span><h3 class="process-title">コーディング</h3><p class="process-text">確定したデザインをもとに、表示速度や操作性にも配慮して実装します。</p></article>
+          <article class="process-item"><span class="process-number">04</span><h3 class="process-title">最終確認・納品</h3><p class="process-text">各端末で表示と動作を確認し、必要な調整を行ったうえで納品します。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">PRICE</p><h2 class="section-heading">料金表</h2></div>
+          <p class="section-lead">動画編集・映像制作・デザインを、必要な内容ごとにご依頼いただけます。掲載料金は1点あたりの目安です。</p>
+        </div>
+        <img class="price-image" src="assets/works-price-list.png" alt="動画編集、動画制作、デザインの料金表">
+      </div>
+    </section>
+
+    <section class="portfolio" id="works">
+      <div class="container portfolio-inner">
+        <div><p class="eyebrow">WORKS</p><h2 class="section-heading">制作実績</h2><p>これまでに制作したWebサイトやデザインを、ポートフォリオにまとめています。</p></div>
+        <a class="button button-light" href="https://takumi-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">制作実績を見る</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">CONTACT</p><h2 class="section-heading">お問い合わせ</h2></div>
+        <div><p class="contact-copy">Webサイト制作のご相談・お見積もりは、XのDMにて受け付けています。</p><a class="button button-accent" href="https://x.com/takumistudio_jp" target="_blank" rel="noopener noreferrer">Xで相談する</a></div>
+      </div>
+    </section>
+
+    <section class="details" aria-labelledby="details-title">
+      <div class="container details-grid">
+        <h2 class="details-title" id="details-title">連絡先</h2>
+        <div class="details-list">
+          <div class="detail-row"><span class="detail-label">X</span><a class="detail-value" href="https://x.com/takumistudio_jp" target="_blank" rel="noopener noreferrer">@takumistudio_jp</a></div>
+          <div class="detail-row"><span class="detail-label">Gmail</span><a class="detail-value" id="email" href="mailto:takumistudio.business@gmail.com">takumistudio.business@gmail.com</a><button class="copy-button" type="button" data-copy="email">コピーする</button></div>
+          <div class="detail-row"><span class="detail-label">相談方法</span><span class="detail-value">XのDM</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top"><p class="footer-logo">TAKUMI STUDIO</p><div class="footer-links"><a href="https://x.com/takumistudio_jp" target="_blank" rel="noopener noreferrer">X</a><a href="#top">ページ上部へ戻る</a></div></div>
+      <div class="footer-bottom"><span>Copyright © 2026 TAKUMI STUDIO</span><span>Web design &amp; development</span></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
