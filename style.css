@@ -32,6 +32,28 @@ section { padding:132px 0; }
 .campaign h2 { margin:0; font-size:clamp(38px,4.6vw,66px); line-height:1.2; letter-spacing:-.045em; }
 .campaign h2 span { display:block; white-space:nowrap; }
 .campaign-copy { margin:0 0 48px; max-width:570px; font-size:20px; font-weight:500; line-height:1.8; }
+.campaign-offers {
+  margin:0 0 32px;
+  border-top:1px solid var(--ink);
+}
+.campaign-offers p {
+  display:grid;
+  grid-template-columns:40px 1fr auto;
+  gap:12px;
+  align-items:center;
+  margin:0;
+  padding:16px 0;
+  border-bottom:1px solid var(--line);
+  font-size:15px;
+  font-weight:600;
+}
+.campaign-offers span {
+  color:var(--accent);
+  font-size:13px;
+}
+.campaign-offers strong {
+  font-size:18px;
+}
 .campaign-date { margin:0; padding:25px 0; border-top:1px solid var(--ink); border-bottom:1px solid var(--line); }
 .campaign-date dt { margin-bottom:10px; font-size:13px; font-weight:600; letter-spacing:.12em; }
 .campaign-date dd { margin:0; font-size:clamp(20px,2.2vw,29px); font-weight:700; line-height:1.55; }
@@ -269,6 +291,18 @@ section { padding:132px 0; }
   .campaign-label { margin-bottom:20px; }
   .campaign h2 { font-size:clamp(29px,9.4vw,37px); letter-spacing:-.055em; }
   .campaign-copy { margin-bottom:34px; font-size:17px; }
+  .campaign-offers {
+    margin-bottom:28px;
+  }
+  .campaign-offers p {
+    grid-template-columns:34px 1fr auto;
+    gap:8px;
+    padding:14px 0;
+    font-size:14px;
+  }
+  .campaign-offers strong {
+    font-size:16px;
+  }
   .campaign-date dd { font-size:clamp(16px,5vw,20px); }
   .campaign .btn-wrap {
     max-width:320px;
