@@ -1,6 +1,32 @@
 const menuButton = document.querySelector('.menu-button');
 const nav = document.querySelector('.nav');
 const backToTop = document.querySelector('.back-to-top');
+const siteIntro = document.getElementById('site-intro');
+const introVideo = document.getElementById('intro-video');
+const introSkip = document.getElementById('intro-skip');
+
+let introClosed = false;
+
+const closeIntro = () => {
+  if (introClosed || !siteIntro) return;
+  introClosed = true;
+  siteIntro.classList.add('is-leaving');
+  document.body.classList.remove('intro-active');
+  setTimeout(() => siteIntro.remove(), 500);
+};
+
+if (siteIntro && introVideo) {
+  document.body.classList.add('intro-active');
+  introVideo.addEventListener('ended', closeIntro, { once:true });
+  introVideo.addEventListener('error', closeIntro, { once:true });
+  introSkip.addEventListener('click', closeIntro);
+  setTimeout(closeIntro, 7000);
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    closeIntro();
+  } else {
+    introVideo.play().catch(() => setTimeout(closeIntro, 600));
+  }
+}
 
 const revealElements = document.querySelectorAll('main > section:not(.hero), .footer');
 revealElements.forEach(element => element.classList.add('reveal'));
